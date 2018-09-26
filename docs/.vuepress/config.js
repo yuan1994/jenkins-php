@@ -1,5 +1,5 @@
 module.exports = {
-  base: 'jenkins-php',
+  base: '/jenkins-php/',
   locales: {
     '/': {
       lang: 'zh-CN',
