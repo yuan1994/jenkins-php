@@ -1,0 +1,101 @@
+{
+    "_class": "hudson.model.FreeStyleBuild",
+    "actions": [
+        {
+            "_class": "hudson.model.ParametersAction",
+            "parameters": [
+                {
+                    "_class": "hudson.model.TextParameterValue",
+                    "name": "hosts",
+                    "value": "10.1.1.1"
+                },
+                {
+                    "_class": "hudson.model.TextParameterValue",
+                    "name": "version",
+                    "value": "master"
+                }
+            ]
+        },
+        {
+            "_class": "hudson.model.CauseAction",
+            "causes": [
+                {
+                    "_class": "hudson.model.Cause$UserIdCause",
+                    "shortDescription": "由用户 tianpian 启动",
+                    "userId": "tianpian",
+                    "userName": "tianpian"
+                }
+            ]
+        },
+        {
+            "_class": "hudson.plugins.git.util.BuildData",
+            "buildsByBranchName": {
+                "refs/remotes/origin/master": {
+                    "_class": "hudson.plugins.git.util.Build",
+                    "buildNumber": 4,
+                    "buildResult": null,
+                    "marked": {
+                        "SHA1": "531ee3946843d206465a95fd26d15fc4ed7e2467",
+                        "branch": [
+                            {
+                                "SHA1": "531ee3946843d206465a95fd26d15fc4ed7e2467",
+                                "name": "refs/remotes/origin/master"
+                            }
+                        ]
+                    },
+                    "revision": {
+                        "SHA1": "531ee3946843d206465a95fd26d15fc4ed7e2467",
+                        "branch": [
+                            {
+                                "SHA1": "531ee3946843d206465a95fd26d15fc4ed7e2467",
+                                "name": "refs/remotes/origin/master"
+                            }
+                        ]
+                    }
+                }
+            },
+            "lastBuiltRevision": {
+                "SHA1": "531ee3946843d206465a95fd26d15fc4ed7e2467",
+                "branch": [
+                    {
+                        "SHA1": "531ee3946843d206465a95fd26d15fc4ed7e2467",
+                        "name": "refs/remotes/origin/master"
+                    }
+                ]
+            },
+            "remoteUrls": [
+                "https://git.xxx.com/tianpian/xxx"
+            ],
+            "scmName": ""
+        },
+        {
+            "_class": "hudson.plugins.git.GitTagAction"
+        },
+        [],
+        [],
+        [],
+        []
+    ],
+    "artifacts": [],
+    "building": false,
+    "description": null,
+    "displayName": "#4",
+    "duration": 2611,
+    "estimatedDuration": 2302,
+    "executor": null,
+    "fullDisplayName": "job-name #4",
+    "id": "4",
+    "keepLog": false,
+    "number": 4,
+    "queueId": 101,
+    "result": "SUCCESS",
+    "timestamp": 1536899935547,
+    "url": "http://localhost:8080/job/job-name/4/",
+    "builtOn": "",
+    "changeSet": {
+        "_class": "hudson.plugins.git.GitChangeSetList",
+        "items": [],
+        "kind": "git"
+    },
+    "culprits": []
+}

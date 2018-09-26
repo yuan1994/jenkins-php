@@ -1,0 +1,51 @@
+{
+    "_class": "hudson.model.User",
+    "absoluteUrl": "http://localhost:8080/user/tianpian",
+    "description": "",
+    "fullName": "tianpian",
+    "id": "tianpian",
+    "property": [
+        {
+            "_class": "jenkins.security.ApiTokenProperty"
+        },
+        {
+            "_class": "io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty"
+        },
+        {
+            "_class": "hudson.tasks.Mailer$UserProperty",
+            "address": "test01@tianpian0805.cn"
+        },
+        {
+            "_class": "hudson.plugins.emailext.watching.EmailExtWatchAction$UserProperty",
+            "triggers": []
+        },
+        {
+            "_class": "jenkins.security.LastGrantedAuthoritiesProperty"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty"
+        },
+        {
+            "_class": "hudson.model.PaneStatusProperties"
+        },
+        {
+            "_class": "org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl"
+        },
+        {
+            "_class": "com.cloudbees.plugins.credentials.UserCredentialsProvider$UserCredentialsProperty"
+        },
+        {
+            "_class": "hudson.security.HudsonPrivateSecurityRealm$Details"
+        },
+        {
+            "_class": "hudson.model.MyViewsProperty"
+        },
+        {
+            "_class": "hudson.plugins.favorite.user.FavoriteUserProperty"
+        },
+        {
+            "_class": "hudson.search.UserSearchProperty",
+            "insensitiveSearch": true
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "_class": "hudson.model.Hudson",
+    "jobs": [
+        {
+            "_class": "hudson.model.FreeStyleProject",
+            "fullName": "crf",
+            "name": "crf",
+            "url": "http://localhost:8080/job/crf/",
+            "color": "blue"
+        },
+        {
+            "_class": "hudson.model.FreeStyleProject",
+            "fullName": "job-1",
+            "name": "job-1",
+            "url": "http://localhost:8080/job/job-1/",
+            "color": "notbuilt"
+        },
+        {
+            "_class": "hudson.model.FreeStyleProject",
+            "fullName": "job-name",
+            "name": "job-name",
+            "url": "http://localhost:8080/job/job-name/",
+            "color": "red"
+        },
+        {
+            "_class": "com.cloudbees.hudson.plugins.folder.Folder",
+            "fullName": "Test",
+            "name": "Test",
+            "url": "http://localhost:8080/job/Test/",
+            "jobs": []
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+            "fullName": "test001",
+            "name": "test001",
+            "url": "http://localhost:8080/job/test001/",
+            "jobs": []
+        }
+    ]
+}

@@ -1,0 +1,342 @@
+{
+    "_class": "hudson.model.Hudson$MasterComputer",
+    "actions": [
+        []
+    ],
+    "assignedLabels": [
+        {
+            "actions": [
+                []
+            ],
+            "busyExecutors": 1,
+            "clouds": [],
+            "description": null,
+            "idleExecutors": 1,
+            "loadStatistics": {
+                "_class": "hudson.model.Label$1",
+                "availableExecutors": [],
+                "busyExecutors": [],
+                "connectingExecutors": [],
+                "definedExecutors": [],
+                "idleExecutors": [],
+                "onlineExecutors": [],
+                "queueLength": [],
+                "totalExecutors": []
+            },
+            "name": "master",
+            "nodes": [
+                {
+                    "_class": "hudson.model.Hudson",
+                    "assignedLabels": [
+                        {
+                            "name": "master"
+                        }
+                    ],
+                    "mode": "NORMAL",
+                    "nodeDescription": "Jenkins的master节点",
+                    "nodeName": "",
+                    "numExecutors": 2,
+                    "description": null,
+                    "jobs": [
+                        {
+                            "_class": "hudson.model.FreeStyleProject",
+                            "name": "create-for-test",
+                            "url": "http://localhost:8080/job/create-for-test/",
+                            "color": "notbuilt"
+                        }
+                    ],
+                    "overallLoad": [],
+                    "primaryView": {
+                        "_class": "hudson.model.AllView",
+                        "name": "all",
+                        "url": "http://localhost:8080/"
+                    },
+                    "quietingDown": false,
+                    "slaveAgentPort": -1,
+                    "unlabeledLoad": {
+                        "_class": "jenkins.model.UnlabeledLoadStatistics"
+                    },
+                    "useCrumbs": false,
+                    "useSecurity": true,
+                    "views": [
+                        {
+                            "_class": "hudson.model.AllView",
+                            "name": "all",
+                            "url": "http://localhost:8080/"
+                        }
+                    ]
+                }
+            ],
+            "offline": false,
+            "tiedJobs": [
+                {
+                    "_class": "hudson.model.FreeStyleProject",
+                    "actions": [
+                        [],
+                        [],
+                        [],
+                        [],
+                        [],
+                        {
+                            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+                        }
+                    ],
+                    "description": null,
+                    "displayName": "crf",
+                    "displayNameOrNull": null,
+                    "fullDisplayName": "crf",
+                    "fullName": "crf",
+                    "name": "crf",
+                    "url": "http://localhost:8080/job/crf/",
+                    "buildable": true,
+                    "builds": [
+                        {
+                            "_class": "hudson.model.FreeStyleBuild",
+                            "number": 1,
+                            "url": "http://localhost:8080/job/crf/1/"
+                        }
+                    ],
+                    "color": "blue",
+                    "firstBuild": {
+                        "_class": "hudson.model.FreeStyleBuild",
+                        "number": 1,
+                        "url": "http://localhost:8080/job/crf/1/"
+                    },
+                    "healthReport": [
+                        {
+                            "description": "构建稳定性: 最近没有失败的构建。",
+                            "iconClassName": "icon-health-80plus",
+                            "iconUrl": "health-80plus.png",
+                            "score": 100
+                        }
+                    ],
+                    "inQueue": false,
+                    "keepDependencies": false,
+                    "lastBuild": {
+                        "_class": "hudson.model.FreeStyleBuild",
+                        "number": 1,
+                        "url": "http://localhost:8080/job/crf/1/"
+                    },
+                    "lastCompletedBuild": {
+                        "_class": "hudson.model.FreeStyleBuild",
+                        "number": 1,
+                        "url": "http://localhost:8080/job/crf/1/"
+                    },
+                    "lastFailedBuild": null,
+                    "lastStableBuild": {
+                        "_class": "hudson.model.FreeStyleBuild",
+                        "number": 1,
+                        "url": "http://localhost:8080/job/crf/1/"
+                    },
+                    "lastSuccessfulBuild": {
+                        "_class": "hudson.model.FreeStyleBuild",
+                        "number": 1,
+                        "url": "http://localhost:8080/job/crf/1/"
+                    },
+                    "lastUnstableBuild": null,
+                    "lastUnsuccessfulBuild": null,
+                    "nextBuildNumber": 2,
+                    "property": [],
+                    "queueItem": null,
+                    "concurrentBuild": false,
+                    "downstreamProjects": [],
+                    "labelExpression": null,
+                    "scm": {
+                        "_class": "hudson.scm.NullSCM"
+                    },
+                    "upstreamProjects": []
+                },
+                {
+                    "_class": "hudson.model.FreeStyleProject",
+                    "actions": [
+                        [],
+                        [],
+                        [],
+                        [],
+                        [],
+                        {
+                            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+                        }
+                    ],
+                    "description": null,
+                    "displayName": "job-1",
+                    "displayNameOrNull": null,
+                    "fullDisplayName": "job-1",
+                    "fullName": "job-1",
+                    "name": "job-1",
+                    "url": "http://localhost:8080/job/job-1/",
+                    "buildable": true,
+                    "builds": [],
+                    "color": "notbuilt",
+                    "firstBuild": null,
+                    "healthReport": [],
+                    "inQueue": false,
+                    "keepDependencies": false,
+                    "lastBuild": null,
+                    "lastCompletedBuild": null,
+                    "lastFailedBuild": null,
+                    "lastStableBuild": null,
+                    "lastSuccessfulBuild": null,
+                    "lastUnstableBuild": null,
+                    "lastUnsuccessfulBuild": null,
+                    "nextBuildNumber": 1,
+                    "property": [],
+                    "queueItem": null,
+                    "concurrentBuild": false,
+                    "downstreamProjects": [],
+                    "labelExpression": null,
+                    "scm": {
+                        "_class": "hudson.scm.NullSCM"
+                    },
+                    "upstreamProjects": []
+                }
+            ],
+            "totalExecutors": 2,
+            "propertiesList": []
+        }
+    ],
+    "description": "Jenkins的master节点",
+    "displayName": "master",
+    "executors": [
+        {
+            "currentExecutable": null,
+            "idle": true,
+            "likelyStuck": false,
+            "number": 0,
+            "progress": -1
+        },
+        {
+            "currentExecutable": {
+                "_class": "hudson.model.FreeStyleBuild",
+                "actions": [
+                    {
+                        "_class": "hudson.model.CauseAction",
+                        "causes": [
+                            {
+                                "_class": "hudson.model.Cause$UserIdCause",
+                                "shortDescription": "由用户 tianpian 启动",
+                                "userId": "tianpian",
+                                "userName": "tianpian"
+                            }
+                        ]
+                    },
+                    [],
+                    [],
+                    []
+                ],
+                "artifacts": [],
+                "building": true,
+                "description": null,
+                "displayName": "#4",
+                "duration": 0,
+                "estimatedDuration": 44172,
+                "executor": [],
+                "fullDisplayName": "Test4 » copy-copy #4",
+                "id": "4",
+                "keepLog": false,
+                "number": 4,
+                "queueId": 4,
+                "result": null,
+                "timestamp": 1537269079328,
+                "url": "http://localhost:8080/job/Test4/job/copy-copy/4/",
+                "builtOn": "",
+                "changeSet": {
+                    "_class": "hudson.scm.EmptyChangeLogSet",
+                    "items": [],
+                    "kind": null
+                },
+                "culprits": []
+            },
+            "idle": false,
+            "likelyStuck": false,
+            "number": 1,
+            "progress": 4
+        }
+    ],
+    "icon": "computer.png",
+    "iconClassName": "icon-computer",
+    "idle": false,
+    "jnlpAgent": false,
+    "launchSupported": true,
+    "loadStatistics": {
+        "_class": "hudson.model.Label$1",
+        "availableExecutors": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        },
+        "busyExecutors": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        },
+        "connectingExecutors": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        },
+        "definedExecutors": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        },
+        "idleExecutors": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        },
+        "onlineExecutors": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        },
+        "queueLength": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        },
+        "totalExecutors": {
+            "hour": [],
+            "min": [],
+            "sec10": []
+        }
+    },
+    "manualLaunchAllowed": true,
+    "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+            "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+            "availablePhysicalMemory": -1,
+            "availableSwapSpace": 1480589312,
+            "totalPhysicalMemory": -1,
+            "totalSwapSpace": 2147483648
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+            "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+            "timestamp": 1537267227460,
+            "path": "/Users/Shared/Jenkins/tmp",
+            "size": 100413628416
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+            "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+            "timestamp": 1537267226847,
+            "path": "/Users/Shared/Jenkins/Home",
+            "size": 100413628416
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Mac OS X (x86_64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+            "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+            "timestamp": 1537267226849,
+            "average": 0
+        },
+        "hudson.node_monitors.ClockMonitor": {
+            "_class": "hudson.util.ClockDifference",
+            "diff": 0
+        }
+    },
+    "numExecutors": 2,
+    "offline": false,
+    "offlineCause": null,
+    "offlineCauseReason": "",
+    "oneOffExecutors": [],
+    "temporarilyOffline": false
+}

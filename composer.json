@@ -1,0 +1,32 @@
+{
+    "name": "yuan1994/jenkins-php",
+    "description": "Jenkins php api",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tianpian",
+            "email": "tianpian@aliyun.com"
+        }
+    ],
+    "keywords": ["jenkins", "cicd", "rest", "jenkins-php"],
+    "homepage": "http://yuan1994.github.io/jenkins-php",
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.3",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yuan1994\\Jenkins\\": "src"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.1",
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yuan1994\\Jenkins\\Tests\\": "tests"
+        }
+    }
+}

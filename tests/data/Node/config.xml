@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<slave>
+    <name>vm175</name>
+    <description>vm175</description>
+    <remoteFS>/var/lib/jenkins</remoteFS>
+    <numExecutors>2</numExecutors>
+    <mode>NORMAL</mode>
+    <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+    <launcher class="hudson.slaves.CommandLauncher" plugin="command-launcher@1.2">
+        <agentCommand>command</agentCommand>
+    </launcher>
+    <label></label>
+    <nodeProperties/>
+</slave>

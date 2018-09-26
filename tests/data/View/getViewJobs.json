@@ -1,0 +1,8 @@
+[
+    {
+        "_class": "hudson.model.FreeStyleProject",
+        "name": "job-1",
+        "url": "http://localhost:8080/job/job-1/",
+        "color": "notbuilt"
+    }
+]

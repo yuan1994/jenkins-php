@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.promoted__builds.PromotionProcess>
+    <keepDependencies>false</keepDependencies>
+    <properties/>
+    <scm class="hudson.scm.NullSCM"/>
+    <triggers/>
+    <icon>star-green</icon>
+    <buildSteps>
+        <hudson.tasks.Shell>
+            <command>ls -l</command>
+        </hudson.tasks.Shell>
+    </buildSteps>
+</hudson.plugins.promoted__builds.PromotionProcess>

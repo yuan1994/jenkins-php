@@ -1,0 +1,58 @@
+{
+    "_class": "hudson.model.Queue",
+    "discoverableItems": [],
+    "items": [
+        {
+            "_class": "hudson.model.Queue$BlockedItem",
+            "actions": [
+                {
+                    "_class": "hudson.model.ParametersAction",
+                    "parameters": [
+                        {
+                            "_class": "hudson.model.TextParameterValue",
+                            "name": "hosts",
+                            "value": "10.1.1.1"
+                        },
+                        {
+                            "_class": "hudson.model.StringParameterValue",
+                            "name": "version",
+                            "value": "master"
+                        }
+                    ]
+                },
+                {
+                    "_class": "hudson.model.CauseAction",
+                    "causes": [
+                        {
+                            "_class": "hudson.model.Cause$UserIdCause",
+                            "shortDescription": "由用户 tianpian 启动",
+                            "userId": "tianpian",
+                            "userName": "tianpian"
+                        },
+                        {
+                            "_class": "hudson.model.Cause$UserIdCause",
+                            "shortDescription": "由用户 tianpian 启动",
+                            "userId": "tianpian",
+                            "userName": "tianpian"
+                        }
+                    ]
+                }
+            ],
+            "blocked": true,
+            "buildable": false,
+            "id": 15,
+            "inQueueSince": 1537776993431,
+            "params": "\nhosts=10.1.1.1\nversion=master",
+            "stuck": false,
+            "task": {
+                "_class": "hudson.model.FreeStyleProject",
+                "name": "job-name",
+                "url": "http://localhost:8080/job/job-name/",
+                "color": "red_anime"
+            },
+            "url": "queue/item/15/",
+            "why": "Build #22 is already in progress (ETA:43 秒)",
+            "buildableStartMilliseconds": 1537776993431
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "_class": "hudson.model.FreeStyleProject",
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        {
+            "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+        }
+    ],
+    "description": "",
+    "displayName": "job-name",
+    "displayNameOrNull": null,
+    "fullDisplayName": "job-name",
+    "fullName": "job-name",
+    "name": "job-name",
+    "url": "http://localhost:8080/job/job-name/",
+    "buildable": true,
+    "builds": [
+        {
+            "_class": "hudson.model.FreeStyleBuild",
+            "number": 1,
+            "url": "http://localhost:8080/job/job-name/1/"
+        }
+    ],
+    "color": "yellow",
+    "firstBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 1,
+        "url": "http://localhost:8080/job/job-name/1/"
+    },
+    "healthReport": [
+        {
+            "description": "构建稳定性: 最近没有失败的构建。",
+            "iconClassName": "icon-health-80plus",
+            "iconUrl": "health-80plus.png",
+            "score": 100
+        }
+    ],
+    "inQueue": false,
+    "keepDependencies": false,
+    "lastBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 1,
+        "url": "http://localhost:8080/job/job-name/1/"
+    },
+    "lastCompletedBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 1,
+        "url": "http://localhost:8080/job/job-name/1/"
+    },
+    "lastFailedBuild": null,
+    "lastStableBuild": null,
+    "lastSuccessfulBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 1,
+        "url": "http://localhost:8080/job/job-name/1/"
+    },
+    "lastUnstableBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 1,
+        "url": "http://localhost:8080/job/job-name/1/"
+    },
+    "lastUnsuccessfulBuild": {
+        "_class": "hudson.model.FreeStyleBuild",
+        "number": 1,
+        "url": "http://localhost:8080/job/job-name/1/"
+    },
+    "nextBuildNumber": 2,
+    "property": [],
+    "queueItem": null,
+    "concurrentBuild": false,
+    "downstreamProjects": [],
+    "labelExpression": null,
+    "scm": {
+        "_class": "hudson.scm.NullSCM"
+    },
+    "upstreamProjects": []
+}

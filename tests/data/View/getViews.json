@@ -1,0 +1,12 @@
+[
+    {
+        "_class": "hudson.model.AllView",
+        "name": "all",
+        "url": "http://localhost:8080/"
+    },
+    {
+        "_class": "hudson.model.ListView",
+        "name": "view1",
+        "url": "http://localhost:8080/view/view1/"
+    }
+]

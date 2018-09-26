@@ -1,0 +1,18 @@
+{
+    "last": {
+        "remote_url": "https://git.xxx.com/tianpian/xxx/",
+        "branch": {
+            "sha1": "077919f4a917dd7688f2e49a4d7b84d2d6763343",
+            "name": "origin/master"
+        }
+    },
+    "remote_urls": [
+        "https://git.xxx.com/tianpian/xxx/"
+    ],
+    "branches": [
+        {
+            "sha1": "077919f4a917dd7688f2e49a4d7b84d2d6763343",
+            "name": "origin/master"
+        }
+    ]
+}

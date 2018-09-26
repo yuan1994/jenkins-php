@@ -1,0 +1,45 @@
+{
+    "_class": "hudson.model.FreeStyleBuild",
+    "actions": [
+        {
+            "_class": "hudson.model.CauseAction",
+            "causes": [
+                {
+                    "_class": "hudson.model.Cause$UserIdCause",
+                    "shortDescription": "由用户 tianpian 启动",
+                    "userId": "tianpian",
+                    "userName": "tianpian"
+                }
+            ]
+        },
+        {
+            "_class": "hudson.plugins.git.GitTagAction"
+        },
+        [],
+        [],
+        [],
+        []
+    ],
+    "artifacts": [],
+    "building": false,
+    "description": null,
+    "displayName": "#4",
+    "duration": 2611,
+    "estimatedDuration": 2302,
+    "executor": null,
+    "fullDisplayName": "job-name #4",
+    "id": "4",
+    "keepLog": false,
+    "number": 4,
+    "queueId": 101,
+    "result": "SUCCESS",
+    "timestamp": 1536899935547,
+    "url": "http://localhost:8080/job/job-name/4/",
+    "builtOn": "",
+    "changeSet": {
+        "_class": "hudson.plugins.git.GitChangeSetList",
+        "items": [],
+        "kind": "git"
+    },
+    "culprits": []
+}

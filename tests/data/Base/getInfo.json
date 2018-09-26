@@ -1,0 +1,57 @@
+{
+    "_class": "hudson.model.Hudson",
+    "assignedLabels": [
+        {
+            "name": "master"
+        }
+    ],
+    "mode": "NORMAL",
+    "nodeDescription": "Jenkins的master节点",
+    "nodeName": "",
+    "numExecutors": 2,
+    "description": null,
+    "jobs": [
+        {
+            "_class": "hudson.model.FreeStyleProject",
+            "name": "crf",
+            "url": "http://localhost:8080/job/crf/",
+            "color": "blue"
+        },
+        {
+            "_class": "hudson.model.FreeStyleProject",
+            "name": "job-name",
+            "url": "http://localhost:8080/job/job-name/",
+            "color": "yellow"
+        },
+        {
+            "_class": "com.cloudbees.hudson.plugins.folder.Folder",
+            "name": "Test",
+            "url": "http://localhost:8080/job/Test/"
+        },
+        {
+            "_class": "org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject",
+            "name": "test001",
+            "url": "http://localhost:8080/job/test001/"
+        }
+    ],
+    "overallLoad": [],
+    "primaryView": {
+        "_class": "hudson.model.AllView",
+        "name": "all",
+        "url": "http://localhost:8080/"
+    },
+    "quietingDown": false,
+    "slaveAgentPort": -1,
+    "unlabeledLoad": {
+        "_class": "jenkins.model.UnlabeledLoadStatistics"
+    },
+    "useCrumbs": false,
+    "useSecurity": true,
+    "views": [
+        {
+            "_class": "hudson.model.AllView",
+            "name": "all",
+            "url": "http://localhost:8080/"
+        }
+    ]
+}
